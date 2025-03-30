@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Kahk Shopping Cart</title>
+    <link rel="stylesheet"  href="our market.css"
+</head>
+<body>
+
+    <h1> Kahk Shopping Cart</h1>
+
+ 
+    <div>
+        <h2>5 pc</h2>
+        <p>Price: $1</p>
+        <button onclick="addToCart('5 pc', 1)">Add to Cart</button>
+    </div>
+
+    <div>
+        <h2>20 pc</h2>
+        <p>Price: $3</p>
+        <button onclick="addToCart('20 pc', 3)">Add to Cart</button>
+    </div>
+
+    <div>
+        <h2>50 pc</h2>
+        <p>Price: $5</p>
+        <button onclick="addToCart('50 pc', 5)">Add to Cart</button>
+    </div>
+
+
+    <h2> Your Cart</h2>
+    <div id="cart-items"></div>
+    <h3>Total: $<span id="total-price">0</span></h3>
+    <h3>Payment Method</h3>
+        <select id="payment-method">
+            <option value="credit-card">Credit Card</option>
+            <option value="paypal">PayPal</option>
+            <option value="cash">Cash on Delivery</option>
+        </select>
+
+        <h3>Delivery Option</h3>
+        <select id="delivery-option">
+            <option value="standard">delivery (2-7 Days)</option>
+            <option value="pick up">pick up from store</option>
+        </select>
+
+        <a href="confirmation page.html">Checkout</a>
+
+    <script src="our market.js"></script>
+    </script>
+
+</body>
+</html>
+
